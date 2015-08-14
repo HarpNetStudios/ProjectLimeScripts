@@ -28,9 +28,9 @@ function modCodeChanged()
 			elseif v.Name == "Color4" then					
 				v.BrickColor = BrickColor.new(mc4)
 			elseif v.Name == "Team" then
-				v.BrickColor = game.Players.LocalPlayer.TeamColor				
+				v.BrickColor = lp.TeamColor				
 			else
-				v.BrickColor = game.Players.LocalPlayer.TeamColor
+				v.BrickColor = lp.TeamColor
 			end
 				
 			if v.BrickColor == BrickColor.new(24) then
