@@ -81,3 +81,4 @@ function modCodeChanged()
 end
 
 lp.ModCode.Changed:connect(modCodeChanged)
+lp.Backpack.ChildRemoved:connect(modCodeChanged)
