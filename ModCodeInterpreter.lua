@@ -80,5 +80,11 @@ function modCodeChanged()
 	wait()
 end
 
+function balls()
+    if true then
+       print("balls")
+    end
+end
+
 lp.ModCode.Changed:connect(modCodeChanged)
 lp.Backpack.ChildRemoved:connect(modCodeChanged)
